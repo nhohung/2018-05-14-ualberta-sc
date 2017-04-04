@@ -2,20 +2,20 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+venue: "University of Alberta"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Business B24"      # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
+country: "ca"      # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "53.527609,-113.522002"       # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
+humandate: "May 15-16, 2017"    # human-readable date (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am - 4:00 pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
+startdate: 2017-05-15      # use YYYY-MM-DD format like 2015-01-01
+enddate: 2017-05-16        # use YYYY-MM-DD format like 2015-01-02
+instructor: ["John Simpson"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBD"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: "john.simpson@computecanada.ca"      # contact email address for workshop organizer, such as "grace@hopper.org"
+etherpad: http://pad.software-carpentry.org/2017-05-15-ualberta         # optional (insert the URL for your Etherpad if you're using one)
+eventbrite: 24432926541      # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -211,20 +211,20 @@ and the administrator will contact you if we need any extra information.</h4>
       <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
+      <tr> <td>13:00</td>  <td>Sharing & Version control with Git/GitHub Desktop</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:00</td>  <td>End Day 1</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>09:00</td>  <td>Regular Expressions Explored</td></td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
+      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:00</td>  <td>End Day 2</td> </tr>
     </table>
   </div>
 </div>
@@ -271,6 +271,13 @@ and the administrator will contact you if we need any extra information.</h4>
   'tools/check' as well.
 -->
 <h2 id="syllabus">Syllabus</h2>
+
+<p>Note that the content listed here are links to the standard Software Carpentry class, which is an <emph>ideal</emph> 
+rather than something that actually happens because there simply isn't enough time over two days to cover it all.  
+What will happen is that your instructor will basically follow the high-level goals of each section but with shifts to 
+the content and the emphasis; in particular, this workshop will focus on <emph>text manipulation and regular expressions</emph>.  
+The end result will be divergence from what is highlighted here but as a result you will have 
+two examples to work from: what you did in class and what is summarized in the sections shared here.</p>
 
 <div class="row">
   <div class="col-md-6">
@@ -341,6 +348,7 @@ and the administrator will contact you if we need any extra information.</h4>
       <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
+<!--
   <div class="col-md-6">
     <h3 id="syllabus-sql">Managing Data with SQL</h3>
     <ul>
@@ -356,7 +364,8 @@ and the administrator will contact you if we need any extra information.</h4>
     </ul>
   </div>
 </div>
-
+-->
+  
 <hr/>
 
 <!--
@@ -385,6 +394,18 @@ and the administrator will contact you if we need any extra information.</h4>
 </p>
 
 <div id="shell"> <!-- Start of 'shell' section. -->
+<p>
+  To participate in a Software Carpentry workshop, you will need
+  access to the software described below. In addition, you will
+  need an up-to-date web browser.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+<div id="shell"> <!-- Start of 'shell' section. -->
   <h3>The Bash Shell</h3>
 
   <p>
@@ -395,59 +416,13 @@ and the administrator will contact you if we need any extra information.</h4>
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
-        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps bellow:
-          <ol>
-            <!-- Git 2.8.2 Setup -->
-            <!-- Information -->
-            <li>Click on "Next".</li>
-            <!-- Select Components -->
-            <li>Click on "Next".</li>
-            <!-- Adjusting your PATH environment -->
-            <li>
-              <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
-              </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
-            </li>
-            <!-- Choosing the SSH executable -->
-            <li>Click on "Next".</li>
-            <!-- Configuring the line ending conversions -->
-            <li>
-              <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
-              </strong>
-            </li>
-            <!-- Configuring the terminal emulator to use with Git Bash -->
-            <li>
-              <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
-              </strong>
-            </li>
-            <!-- Configuring experimental performance tweaks -->
-            <li>Click on "Install".</li>
-            <!-- Installing -->
-            <!-- Completing the Git Setup Wizard -->
-            <li>Click on "Finish".</li>
-          </ol>
-        </li>
-        <li>
-          If your "HOME" environment variable is not set (or you don't know what this is):
-          <ol>
-            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
-            <li>
-              Type the following line into the command prompt window exactly as shown:
-              <p><code>setx HOME "%USERPROFILE%"</code></p>
-            </li>
-            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
-          </ol>
-        </li>
+        <li>Download the MobaXterm <a href="http://mobaxterm.mobatek.net/MobaXterm_Setup_8.6.msi">installer</a>.</li>
+        <li>Run the installer.</li>
+        <li>Open the program.  If there are no errors then you can assume that it was installed properly and close it.</li>
       </ol>
-      <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+      <p>This will provide you with the free home edition of MobaXterm, a tool that provides a very nice command-line shell
+      within Windows.  We will review how to use MobaXterm in class.</p>
     </div>
     <div class="col-md-4">
       <h4 id="shell-macosx">Mac OS X</h4>
@@ -455,10 +430,7 @@ and the administrator will contact you if we need any extra information.</h4>
         The default shell in all versions of Mac OS X is Bash, so no
         need to install anything.  You access Bash from the Terminal
         (found in
-        <code>/Applications/Utilities</code>).
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open the Terminal.
-        You may want to keep
+        <code>/Applications/Utilities</code>). You may want to keep
         Terminal in your dock for this workshop.
       </p>
     </div>
@@ -474,9 +446,10 @@ and the administrator will contact you if we need any extra information.</h4>
   </div>
 </div> <!-- End of 'shell' section. -->
 
-<div id="git"> <!-- Start of 'Git' section. GitHub browser compatability
+<div id='git'> <!-- Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/-->
   <h3>Git</h3>
+
   <p>
     Git is a version control system that lets you track who made changes
     to what when and has options for easily updating a shared or public
@@ -484,29 +457,30 @@ and the administrator will contact you if we need any extra information.</h4>
     on <a href="https://github.com/">github.com</a>. You will need a
     <a href="https://help.github.com/articles/supported-browsers/">supported</a>
     web browser (current versions of Chrome, Firefox or Safari,
-    or Internet Explorer version 9 or above).
-  </p>
-  <p>
-    You will need an account at <a href="https://github.com/">github.com</a>
-    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
-    you to create a GitHub account if you don't have one already.
-    Please consider what personal information you'd like to reveal. For
-    example, you may want to review these
-    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
-    for keeping your email address private</a> provided at GitHub.
+    or Internet Explorer version 9 or above).  While we will be installing Git on your system our focus will be 
+    on GitHub and the GUI (Graphic User Interface) tools that are provided for working with it.
   </p>
 
   <div class="row">
     <div class="col-md-4">
       <h4 id="git-windows">Windows</h4>
       <p>
-        Git should be installed on your computer as part of your Bash
-        install (described above).
+        We will install Git within MobaXterm during lunch on the first day.  This is fairly straightforward to do.
+        If you would like a headstart on this then <a href="http://mobaxterm.mobatek.net/plugins/Git.mxt3">download 
+        the Git plugin for MobaXterm</a> and place it in the same directory as the MobaXterm executable 
+        (should be in "C:\Program Files (x86)\Mobatek\MobaXterm Personal Edition\").
+      </p>
+      <p>
+        You need to create a GitHub account.  This can be done by visiting <a href="https://github.com/">https://github.com/</a>
+        and using the account creation feature as you would for any website.
+      </p>
+      <p>
+        You need to install the GitHub Desktop Tool.  You can find the download at <a href="https://desktop.github.com/">https://desktop.github.com/</a>.
+        Download the tool and install it.
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="git-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
       <p>
         <strong>For OS X 10.9 and higher</strong>, install Git for Mac
         by downloading and running the most recent "mavericks" installer from
@@ -517,6 +491,14 @@ and the administrator will contact you if we need any extra information.</h4>
         most recent available installer labelled "snow-leopard"
         <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
       </p>
+      <p>
+        You need to create a GitHub account.  This can be done by visiting <a href="https://github.com/">https://github.com/</a>
+        and using the account creation feature as you would for any website.
+      </p>
+      <p>
+        You need to install the GitHub Desktop Tool.  You can find the download at <a href="https://desktop.github.com/">https://desktop.github.com/</a>.
+        Download the tool and install it.
+      </p>
     </div>
     <div class="col-md-4">
       <h4 id="git-linux">Linux</h4>
@@ -525,6 +507,14 @@ and the administrator will contact you if we need any extra information.</h4>
         install it via your distro's package manager. For Debian/Ubuntu run
         <code>sudo apt-get install git</code> and for Fedora run
         <code>sudo yum install git</code>.
+      </p>
+      <p>
+        You need to create a GitHub account.  This can be done by visiting <a href="https://github.com/">https://github.com/</a>
+        and using the account creation feature as you would for any website.
+      </p>
+      <p>
+        Unfortunately there is no GitHub Desktop Tool for Linux.  Not to worry, we will make sure that you are able to use
+        the git commandline tool to access GitHub.
       </p>
     </div>
   </div>
@@ -546,13 +536,12 @@ and the administrator will contact you if we need any extra information.</h4>
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">Software Carpentry Windows installer</a>
-        and double click on the file to run it.
-        <strong>This installer requires an active internet connection.</strong>
+          It does not come pre-packaged in MobaXterm but it is easy to install and we will do so during the workshop.
+            If you would like to try to do this in advance then open MobaXterm, start a local terminal, and when you
+            see a command prompt (an arrow with a block cursor after it) type "apt-get install nano" (without the quotes)
+            and press enter.
       </p>
       <p>
         Others editors that you can use are
@@ -567,8 +556,6 @@ and the administrator will contact you if we need any extra information.</h4>
       <h4 id="editor-macosx">Mac OS X</h4>
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open nano.
         It should be pre-installed.
       </p>
       <p>
@@ -601,8 +588,8 @@ and the administrator will contact you if we need any extra information.</h4>
 
   <p>
     <a href="http://python.org">Python</a> is a popular language for
-    research computing, and great for general-purpose programming as
-    well.  Installing all of its research packages individually can be
+    scientific computing, and great for general-purpose programming as
+    well.  Installing all of its scientific packages individually can be
     a bit difficult, so we recommend
     <a href="https://www.continuum.io/anaconda">Anaconda</a>,
     an all-in-one installer.
@@ -618,8 +605,8 @@ and the administrator will contact you if we need any extra information.</h4>
       We will teach Python using the IPython notebook, a programming environment
       that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all
-      <a href="http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility">supported</a>
+      Firefox browsers are all <a
+      href='http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility'>supported</a>
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
@@ -627,7 +614,6 @@ and the administrator will contact you if we need any extra information.</h4>
   <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
       <ol>
         <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
@@ -636,7 +622,6 @@ and the administrator will contact you if we need any extra information.</h4>
     </div>
     <div class="col-md-4">
       <h4 id="python-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
       <ol>
         <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
         <li>Download the Python 3 installer for OS X.</li>
@@ -647,32 +632,28 @@ and the administrator will contact you if we need any extra information.</h4>
       <h4 id="python-linux">Linux</h4>
       <ol>
         <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
-        <li>Download the Python 3 installer for Linux.<br>
-          (Installation requires using the shell. If you aren't
-           comfortable doing the installation yourself
-           stop here and request help at the workshop.)
-        </li>
+        <li>Download the Python 3 installer for Linux.</li>
+        <li>Install Python 3 using all of the defaults for installation.
+        (Installation requires using the shell. If you aren't
+        comfortable doing the installation yourself
+        stop here and request help at the workshop.)</li>
         <li>
           Open a terminal window.
         </li>
         <li>
           Type <pre>bash Anaconda3-</pre> and then press
           tab. The name of the file you just downloaded should
-          appear. If it does not, navigate to the folder where you
-          downloaded the file, for example with:
-          <pre>cd Downloads</pre>
-          Then, try again.
+          appear.
         </li>
         <li>
-          Press enter. You will follow the text-only prompts. To move through
-          the text, press the space key. Type <code>yes</code> and
+          Press enter. You will follow the text-only prompts.  When
+          there is a colon at the bottom of the screen press the down
+          arrow to move down through the text. Type <code>yes</code> and
           press enter to approve the license. Press enter to approve the
           default location for the files. Type <code>yes</code> and
           press enter to prepend Anaconda to your <code>PATH</code>
           (this makes the Anaconda distribution the default Python).
         </li>
-        <li>
-          Close the terminal window.
       </ol>
     </div>
   </div>
@@ -685,100 +666,10 @@ and the administrator will contact you if we need any extra information.</h4>
 -->
 </div> <!-- End of 'Python' section. -->
 
-<div id="r"> <!-- Start of 'R' section. -->
-  <h3>R</h3>
-
-  <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
-        for example when installing R packages.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'R' section. -->
-
-<div id="sql"> <!-- Start of 'SQLite' section. -->
-  <h3>SQLite</h3>
-
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="{{site.swc_installer}}">Software Carpentry Windows Installer</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">Mac OS X</h4>
-      <p>
-        SQLite comes pre-installed on Mac OS X.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-        SQLite comes pre-installed on Linux.
-      </p>
-    </div>
-  </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
-</div> <!-- End of 'SQLite' section. -->
-
 <!--
   Uncomment this section if you are using our virtual machine.
-
 <div id="vm">
   <h3>Virtual Machine</h3>
-
   <p>
     Some instructors prefer to have learners use a virtual machine (VM)
     rather than install software on their own computers.  If your
