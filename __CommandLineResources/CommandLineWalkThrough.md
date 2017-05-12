@@ -303,9 +303,9 @@ We need a file to do some manipulation with.  There are three standard ways to d
 
 We will use option #1 but it really doesn't matter as long as each program is installed.  Here's how to do it with curl:
 
-	$ curl -L -O http://bit.ly/1TTicb6
+	$ curl -L -O http://bit.ly/2qaCqW7
 
-<!-- This link is to a copy of Moby Dick that is held inside the new dh-carpentry GitHub repository. -->
+<!-- This link is to a copy of Moby Dick that is held inside the new 2017-05-15-ualberta GitHub repository. -->
 
 The "-L" flag tells curl to follow redirects and the "-O" (a capital letter o and not a zero, think of it as the "Output" flag) tells curl to write the content of the url to a file.
 
