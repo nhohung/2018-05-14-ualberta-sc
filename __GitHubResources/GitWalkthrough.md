@@ -11,7 +11,7 @@ There are two reasons to use Git/GitHub:
 
 ### Why (automated) version control
 The importance of version control can begin to be understood with the following comic from Jorge Cham's [“Piled Higher and Deeper”](http://www.phdcomics.com)
-![](http://swcarpentry.github.io/git-novice/fig/phd101212s.gif)
+![http://www.phdcomics.com/comics/archive/phd101212s.gif](http://www.phdcomics.com/comics/archive/phd101212s.gif)
 Rather than keep multiple slight variations of a document through its entire life cycle version control allows for *one* copy of a document to be kept, the most recent, while all the changes made to get it to its current state are held in the background by a program specially designed to track this information.  This saves the need for bizzare naming conventions and holding multiple copies of the same document.
 
 Version control goes well beyond avoiding bizarre naming conventions though and really comes into its own when there are multiple authors working on a document in parallel.  Rather than just accept what any other contributor has written, version control allows those responsible for the document to choose exactly what gets kept and what gets changed.  It even allows for the roll back of content to previous versions when it is determined that those versions are preferred.  Combined with a central repository like GitHub it also provides a backup for your data and the benefits of enterprise class redundant systems.
@@ -25,7 +25,7 @@ While sharing information more easily was part of the original purposes for deve
 From [https://xkcd.com/1597/](https://xkcd.com/1597/) by Randal Munroe
 
 ## Learning Objectives
-We're going to make sharing information via GitHub the primary objective of this portion of the workshop and look at version control only in light of sharing.  By doing this we will be placing the emphasis on using GitHub rather than on using Git.  Make no mistake though Git is central to GitHub and must be understood to make effective use of it.  There will be commandline work in this section but it will be treated as secondary to the use of the Git desktop app.  Emphasis will be placed on generating an understanding of the core concepts that power Git and the terms used to refer to these concepts.
+We're going to make sharing information via GitHub the primary objective of this portion of the workshop and look at version control only in light of sharing.  By doing this we will be placing the emphasis on using GitHub rather than on using Git.  Make no mistake though Git is central to GitHub and must be understood to make effective use of it.  There will be no commandline work in this section but the command line git tutorial is available to anyone who wants it.  Emphasis will be placed on generating an understanding of the core concepts that power Git and the terms used to refer to these concepts.
 
 **GitHub now has a really excellent series of guides/tutorials that can be found at [https://guides.github.com/](https://guides.github.com/).**
 
@@ -206,6 +206,8 @@ https://help.github.com/desktop/guides/contributing/reverting-a-commit/
 ### Adding a project
 This is as easy as dragging a folder onto the app and then syncronizing it.
 
+You can also click the **+** in the top left corner, then click the "Add" tab, and follow along from there.
+
 ## Markdown
 Use an online editor to make the rendering of markdown realtime.
 
@@ -248,7 +250,7 @@ Must be done from either GitHub or from the commandline.
 
 ### Web pages
 [https://guides.github.com/features/pages](https://guides.github.com/features/pages)
-Not sure I really want to go here since it opens up the possibility of having to get into HTML syntax.  Perhaps just stick with the markdown based README.md page for the time being...
+We won't go here in this workshop since it opens up the necessity of HTML syntax.  We'll just stick with the markdown based README.md page for the time being and anyone can follow along with the tutorial later if they would like.
 
 Could show off [Jentery's page](http://jentery.github.io/inke2016) which is a nice slide show/presentation just to illustrate what is possible.
 
