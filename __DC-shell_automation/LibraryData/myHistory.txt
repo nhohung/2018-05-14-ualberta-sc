@@ -1,0 +1,500 @@
+  165  curl -L http://bit.ly/MDxHM
+  166  clear
+  167  head MDxHM 
+  168  head -100 MDxHM 
+  169  head -1
+  170  head -1 MDxHM 
+  171  tail MDxHM 
+  172  ls
+  173  clear
+  174  mv MDxHM mobyDick.txt
+  175  ls
+  176  cp mobyDick.txt mobyDick.bak
+  177  ls
+  178  clear
+  179  grep whale mobyDick.txt 
+  180  clear
+  181  grep -n whale mobyDick.txt 
+  182  clear
+  183  grep -n whale mobyDick.txt 
+  184  clear
+  185  grep -n whale mobyDick.txt > whaleLines.txt
+  186  ls
+  187  tail whaleLines.txt 
+  188  ls
+  189  clear
+  190  wc mobyDick.txt 
+  191  python
+  192  clear
+  193  curl -L -O http://bit.ly/MDxHM
+  194  head MDxHM 
+  195  clear
+  196  ls
+  197  mv MDxHM mobyDick.txt
+  198  ls
+  199  clear
+  200  curl http://www.uvic.ca
+  201  clear
+  202  wc mobyDick.txt 
+  203  grep whale mobyDick.txt 
+  204  clear
+  205  grep whale mobyDick.txt
+  206  clear
+  207  grep -n whale mobyDick.txt
+  208  clear
+  209  grep -wc mobyDick.tx
+  210  grep -wc mobyDick.txt
+  211  grep -wc whale mobyDick.txt
+  212  man
+  213  man grep
+  214  clear
+  215  grep whale mobyDick.txt | wc
+  216  cat mobyDick.txt 
+  217  clear
+  218  cat mobyDick.txt | tr ' ' '\n'
+  219  clear
+  220  cat mobyDick.txt | tr ' ' '\n' | grep whale 
+  221  clear
+  222  cat mobyDick.txt | tr ' ' '\n' | grep whale | wc
+  223  cat mobyDick.txt | tr ' ' '\n' | grep whale > allWhales.txt
+  224  ls
+  225  head allWhales.txt 
+  226  head -5 allWhales.txt 
+  227  clear
+  228  cat mobyDick.txt | tr ' ' '\n' | grep whale | wc -l
+  229  nano whaleCount.sh
+  230  bash whaleCount.sh 
+  231  clear
+  232  cat whaleCount.sh 
+  233  nano whaleCount.sh
+  234  bash whaleCount.sh 
+  235  bash whaleCount.sh whale
+  236  nano whaleCount.sh 
+  237  bash whaleCount.sh whale
+  238  nano whaleCount.sh 
+  239  bash whaleCount.sh unicorn
+  240  nano whaleCount.sh 
+  241  clear
+  242  man sed
+  243  sed 's/hello/bonjour/' greetings.txt
+  244  sed 's/whale/monkey/' mobyDick.txt
+  245  sed 's/whale/monkey/' mobyDick.txt | grep monkey
+  246  man sed
+  247  nano replace.sh
+  248  bash replace.sh whale monkey | grep monkey
+  249  clear
+  250  sed 's/whale/monkey/' mobyDick.txt 
+  251  sed 's/whale/monkey/' mobyDick.txt | grep monkey
+  252  nano replacer.sh
+  253  bash replacer.sh boat house
+  254  sed 's/whale/monkey/' mobyDick.txt | say
+  255  head mobyDick.txt 
+  256  sed 's/[Ww]hale/monkey/' mobyDick.txt | say
+  257  man say
+  258  say -v ?
+  259  sed 's/[Ww]hale/monkey/' mobyDick.txt | say -v Alice
+  260  sed 's/[Ww]hale/monkey/' mobyDick.txt | say -v Tessa
+  261  telnet towel.blinkenlights.nl
+  262  /Users/simpson/anaconda/bin/jupyter_mac.command ; exit;
+  263  $PS1="$ "
+  264  PS1="$ "
+  265  cd Documents/workspace/DHSI-Coding\ Fundamentals/2017/class-projects/2016/
+  266  ls
+  267  cd Game-Group-DHSI2016/
+  268  ls
+  269  cat MurderScotland.py 
+  270  nano MurderScotland.py 
+  271  python MurderScotland.py 
+  272  clear
+  273  echo $PATH
+  274  head MurderScotland.py 
+  275  aoutauoetndh MurderScotland.py 
+  276  echo $PATH
+  277  cd Documents/workspace/DHSI-Coding\ Fundamentals/2017/class-projects/2016/Game-Group-DHSI2016/
+  278  PS1="$ " 
+  279  pwd
+  280  python MurderScotland.py 
+  281  python MurderScotland.py 
+  282  telnet towel.blinkenlights.nl
+  283  clear
+  284  ssh sshtron.zachlatta.com
+  285  ln -s /Volumes/NO\ NAME/ ~/Desktop/
+  286  PS1="$ "
+  287  clear
+  288  pwd
+  289  cd Desktop/
+  290  curl -L -O http://www.gutenberg.org/cache/epub/472/pg472.txt
+  291  ls
+  292  mv pg472.txt houseBehindCedars.txt
+  293  sed 's/"\'/" "' houseBehindCedars.txt
+  294  sed 's/house/monkey/' houseBehindCedars.txt | grep monkey houseBehindCedars.txt 
+  295  sed 's/house/monkey/' houseBehindCedars.txt | grep monkey
+  296  sed 's/"\'/monkey/' houseBehindCedars.txt | grep monkey
+  297  cat houseBehindCedars.txt | tr ' ' '\n' | grep ' > singleQuotes.txt
+  298  cat houseBehindCedars.txt | tr ' ' '\n' | grep \' > singleQuotes.txt
+  299  cat singleQuotes.txt 
+  300  grep \" singleQuotes.txt > singleDouble.txt
+  301  cat singleDouble.txt 
+  302  history
+  303  head singleQuotes.txt 
+  304  head singleDouble.txt 
+  305  history | tail -30
+  306  history | tail -20 > singleCutting.txt
+  307  pwd
+  308  curl -O http://sounds.bl.uk/Accents-and-dialects/BBC-Voices/021M-C1190X0043XX-0101V0#_
+  309  ls
+  310  head 021M-C1190X0043XX-0101V0#_ 
+  311  rm 021M-C1190X0043XX-0101V0#_ 
+  312  pip install alignment
+  313  nano /Users/simpson/anaconda/lib/python3.6/site-packages/alignment/sequence.py
+  314  nano /Users/simpson/anaconda/lib/python3.6/site-packages/alignment/sequence.py
+  315  nano /Users/simpson/anaconda/lib/python3.6/site-packages/alignment/sequence.py
+  316  conda
+  317  pip install selenium
+  318  pip install gdata
+  319  pip install --upgrade google-api-python-client
+  320  pwd
+  321  nano quickstart.py
+  322  python quickstart.py 
+  323  history | tail -20
+  324  pwd
+  325  cd ..
+  326  mv Downloads/chromedriver /usr/bin/
+  327  sudo mv Downloads/chromedriver /usr/bin/
+  328  mkdir .seleniumDrivers
+  329  sudo mv Downloads/chromedriver .seleniumDrivers/
+  330  nano .bash_profile 
+  331  source .bash_profile 
+  332  echo $PATH
+  333  chromedriver 
+  334  cd Desktop/
+  335  nano youTubeSelenium.py
+  336  python youTubeSelenium.py 
+  337  nano youTubeSelenium.py
+  338  python youTubeSelenium.py 
+  339  nano youTubeSelenium.py
+  340  ls
+  341  nano youTubeSelenium.py 
+  342  fortune
+  343  jupyter notebook
+  344  jupyter notebook
+  345  mv Downloads/geckodriver .seleniumDrivers/
+  346  mv Downloads/MicrosoftWebDriver.exe .seleniumDrivers/
+  347  ls .seleniumDrivers/
+  348  cd ~/Desktop/
+  349  ls
+  350  cat houseBehindCedars.txt | tr '\n' ' ' | tr '\r' ' ' | cat -n
+  351  cat houseBehindCedars.txt | tr '\n' ' ' | tr '\r' ' ' | wc -l
+  352  cat houseBehindCedars.txt | tr '\n' ' ' | wc -l
+  353  cat houseBehindCedars.txt | tr '\r' ' ' | wc -l
+  354  PS1="$ "
+  355  cat houseBehindCedars.txt | tr '\r' ' ' | grep ".+?"
+  356  cat houseBehindCedars.txt | tr '\n' ' ' | grep ".+?"
+  357  cat houseBehindCedars.txt | tr '\n' ' ' | grep '".+?\'
+  358  cat houseBehindCedars.txt | tr '\n' ' ' | grep '".+?'
+  359  cat houseBehindCedars.txt | tr '\n' ' ' | grep '".+?"'
+  360  cat houseBehindCedars.txt | tr '\n' ' ' | grep \".+?\"
+  361  cat houseBehindCedars.txt | tr '\n' ' ' | grep .
+  362  cat houseBehindCedars.txt | tr '\n' ' ' | grep \\.
+  363  cat houseBehindCedars.txt | tr '\n' ' ' | grep \.
+  364  cat houseBehindCedars.txt | tr '\n' ' ' | grep \\\.
+  365  cat houseBehindCedars.txt | tr '\n' ' ' | grep Death
+  366  cat houseBehindCedars.txt | tr '\n' ' ' | grep Death
+  367  cat houseBehindCedars.txt | tr '\n' ' ' | grep '".+?"
+  368  cat houseBehindCedars.txt | tr '\n' ' ' | grep '".+?"'
+  369  man grep
+  370  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o Death
+  371  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \w+ing
+  372  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '\w+ing'
+  373  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '\\w+ing'
+  374  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o ing
+  375  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '\wing'
+  376  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '\w+ing'
+  377  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '\w*ing'
+  378  cat houseBehindCedars.txt | tr '\n' ' ' | grep '".*?"'
+  379  cat houseBehindCedars.txt | tr '\n' ' ' | grep ".*?"
+  380  cat houseBehindCedars.txt | tr '\n' ' ' | grep '\".*?\"'
+  381  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o -F '".*?"'
+  382  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '".*?"'
+  383  cat houseBehindCedars.txt | tr '\n' ' ' | grep "
+  384  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"'
+  385  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '".'
+  386  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"\.'
+  387  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"\\.'
+  388  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF $'"\.'
+  389  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF $'"\\.'
+  390  man grep
+  391  cat houseBehindCedars.txt | tr '\n' ' ' | grep master
+  392  cat houseBehindCedars.txt | tr '\n' ' ' | grep aouoauoaeuoeu
+  393  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o master
+  394  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o "
+  395  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"
+  396  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\.
+  397  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w
+  398  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w\*
+  399  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w\*?
+  400  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w\*\?
+  401  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w\*\\?
+  402  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w\*\"
+  403  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\.*\"
+  404  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\.\+\"
+  405  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"
+  406  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w
+  407  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w\+
+  408  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w+
+  409  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\w\\+
+  410  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\\.\\+
+  411  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\.\\+
+  412  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\.\\+\\?
+  413  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \"\.\\+\\?\"
+  414  man grep
+  415  man fgrep
+  416  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"'
+  417  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '".'
+  418  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"\.'
+  419  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"\\.'
+  420  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF $'"\\.'
+  421  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF $'"\.'
+  422  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF $'".'
+  423  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF $'"'
+  424  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"\w'
+  425  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"\\w'
+  426  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF '"\\\w'
+  427  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF $'"\w'
+  428  cat houseBehindCedars.txt | tr '\n' ' ' | grep -oF "\w
+  429  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"'
+  430  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '".'
+  431  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\.'
+  432  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\\.'
+  433  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\.+'
+  434  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\.\+'
+  435  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\.\\+'
+  436  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\.\\\+'
+  437  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\.*'
+  438  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\.\*'
+  439  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o '"\.\\*'
+  440  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o ".*
+  441  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \".*
+  442  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o \\".*
+  443  cat houseBehindCedars.txt | tr '\n' ' ' 
+  444  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o "\".*\""
+  445  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o "\".*?\""
+  446  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o "\".*\?\""
+  447  grep -o "\'\w*'" houseBehindCedars.txt 
+  448  grep -o "'\w*'" houseBehindCedars.txt 
+  449  grep -o "\".*?\"" houseBehindCedars.txt 
+  450  grep -n \*\*\* houseBehindCedars.txt 
+  451  grep -n "***" houseBehindCedars.txt 
+  452  grep -n "\*\*\*" houseBehindCedars.txt 
+  453  head -7357 houseBehindCedars.txt | tail -7337 > hbcClean.txt 
+  454  head hbcClean.txt 
+  455  tail hbcClean.txt 
+  456  head -7355 houseBehindCedars.txt | tail -7335 > hbcClean.txt 
+  457  head hbcClean.txt 
+  458  tail hbcClean.txt 
+  459  head -7355 houseBehindCedars.txt | tail -7330 > hbcClean.txt 
+  460  head hbcClean.txt 
+  461  grep -o "\".*?\"" hbcClean.txt | less
+  462  grep -v "\".*?\"" hbcClean.txt > hbcQoutes.txt
+  463  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o "\".*?\"
+  464  cat houseBehindCedars.txt | tr '\n' ' ' | grep -o "\".*?\""
+  465  cat houseBehindCedars.txt | tr '\n' ' '
+  466  history
+  467  cat houseBehindCedars.txt | tr '\n' ' ' | tr '\r' ' ' 
+  468  cat houseBehindCedars.txt | tr '\r' ' '
+  469  cat houseBehindCedars.txt | tr '\r' ' ' | tr '\n' ' ' | grep -o "
+  470  clear
+  471  cat houseBehindCedars.txt | tr '\r\n' ' '
+  472  cat houseBehindCedars.txt | tr '\r\n' ' ' | grep -o "\".*?\""
+  473  cat houseBehindCedars.txt | tr '\r\n' ' ' | grep -o "\".*?\""
+  474  cat houseBehindCedars.txt | tr '\n\r' ' ' | grep -o "\".*?\""
+  475  cat houseBehindCedars.txt | tr '\n\r' ' ' | grep -ov "\".*?\""
+  476  cat houseBehindCedars.txt | tr '\n\r' ' ' | grep -o Tryon
+  477  cat houseBehindCedars.txt | tr '\n\r' ' ' | grep -o "\".*?\""
+  478  cat houseBehindCedars.txt | tr '\n\r' ' ' | grep -o " \".*?\" "
+  479  cat houseBehindCedars.txt | tr '\n\r' ' ' | grep -o " \".*?\"" | less
+  480  cat houseBehindCedars.txt | tr '\n\r' ' ' | grep -on " \".*?\"" 
+  481  cat houseBehindCedars.txt | tr '\n\r' ' ' | grep -on " \".*?\"" | less
+  482  grep -o "\".*?\"" hbcClean.txt | less
+  483  grep -o "\"" hbcClean.txt
+  484  grep "\"" hbcClean.txt
+  485  grep "\"" hbcClean.txt | less
+  486  grep "\"" hbcClean.txt > hbcQoutes.txt 
+  487  grep -v "\"" hbcClean.txt > hbcNOQoutes.txt 
+  488  grep -v "\"" hbcClean.txt
+  489  wc -l hbcQoutes.txt 
+  490  grep -o "\"\'" hbcQoutes.txt 
+  491  grep -o "\"\'.*?" hbcQoutes.txt 
+  492  grep -o "\"\'.\*\?" hbcQoutes.txt 
+  493  grep -o "\"\'.*\?" hbcQoutes.txt 
+  494  grep -o "\"\'.\*\?" hbcQoutes.txt 
+  495  grep -o "\"\'.*" hbcQoutes.txt 
+  496  grep -o ".*?\'\"" hbcQoutes.txt 
+  497  grep -o ".*\'\"" hbcQoutes.txt 
+  498  grep -o "\"\'.*|.*\'\"" hbcQoutes.txt 
+  499  grep -o "\"\'.*\|.*\'\"" hbcQoutes.txt 
+  500  PS1='$ '
+  501  whoami
+  502  whereami
+  503  pwd
+  504  ls
+  505  clear
+  506  cd Desktopy
+  507  cd Desktop/
+  508  pwd
+  509  mkdir Data Carpentry
+  510  pwd
+  511  ls
+  512  clear
+  513  mkdir DataCarpentry
+  514  ls
+  515  cd DataCarpentry/
+  516  ls
+  517  pwd
+  518  clear
+  519  git clone https://github.com/ComputeCanada/DC-shell_automation
+  520  ls
+  521  rm -rf DC-shell_automation/
+  522  clear
+  523  curl -O -L https://github.com/ComputeCanada/DC-shell_automation/blob/master/DC-shell_automation.zip
+  524  ls
+  525  unzip DC-shell_automation.zip 
+  526  cat DC-shell_automation.zip 
+  527  clear
+  528  curl -O -L http://bit.ly/2017-07-12-ualberta
+  529  ls
+  530  ls 2017-07-12-ualberta 
+  531  cd 2017-07-12-ualberta 
+  532  cat DC-shell_automation.zip 
+  533  rm DC-shell_automation.zip 
+  534  unzip 2017-07-12-ualberta 
+  535  ls
+  536  ls DC-shell_automation/
+  537  clear
+  538  ls
+  539  rm __MACOSX/
+  540  rm -rf *
+  541  ls
+  542  clear
+  543  curl -L -O http://bit.ly/2017-07-12-ualberta
+  544  clear
+  545  pwd
+  546  ls
+  547  clear
+  548  pwd
+  549  ls
+  550  unzip 2017-07-12-ualberta 
+  551  ls
+  552  clear
+  553  ls
+  554  cd DC-shell_automation/
+  555  ls
+  556  ls 
+  557  clear
+  558  ls -l
+  559  ls -a
+  560  clear
+  561  ls -F
+  562  man ls
+  563  man man
+  564  ls -la
+  565  clear
+  566  ls -l -a
+  567  clear
+  568  ls 
+  569  ls -F
+  570  clear
+  571  ls LibraryData/
+  572  pwd
+  573  ls /
+  574  clear
+  575  ls /Users
+  576  ls -a /Users/simpson/Desktop/DataCarpentry/
+  577  ls -a /Users/simpson/Desktop/DataCarpentry/DC-shell_automation/
+  578  clear
+  579  cd /
+  580  pwd
+  581  clear
+  582  cd /
+  583  pwd
+  584  cd
+  585  pwd
+  586  cd Desktop/DataCarpentry/DC-shell_automation/
+  587  ls
+  588  ls -a
+  589  clear
+  590  pwd
+  591  cd .
+  592  pwd
+  593  cd ..
+  594  pwd
+  595  ls
+  596  cd DC-shell_automation/Li
+  597  cd DC-shell_automation/LibraryData/
+  598  ls
+  599  clear
+  600  pwd
+  601  ls
+  602  top10.sh
+  603  ./top10.sh
+  604  ls -l
+  605  clear
+  606  bash top10.sh
+  607  ls
+  608  bash top10.sh EPLABB.csv 
+  609  clear
+  610  cat EPLABB.csv 
+  611  clear
+  612  cat top10.sh 
+  613  head EPLABB.csv 
+  614  clear
+  615  head -n 2 EPLABB.csv 
+  616  tail -n +2 EPLABB.csv
+  617  clear
+  618  tail -n +2 EPLABB.csv | head -n 1
+  619  tail -n +2 EPLABB.csv | cut -d , -f 5
+  620  clear
+  621  tail -n +2 EPLABB.csv | head -n 1
+  622  tail -n +2 EPLABB.csv | cut -d / -f 1
+  623  clear
+  624  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/EPLABB//'
+  625  clear
+  626  tail -n +2 EPLABB.csv | head -n 1
+  627  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^[A-Z]//'
+  628  clear
+  629  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^[A-Z0-9]{14}//'
+  630  clear
+  631  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^[A-Z]{6}//'
+  632  clear
+  633  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^[A-Z]\{6\}//'
+  634  clear
+  635  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^[A-Z0-9]\{14\}//'
+  636  clear
+  637  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^"*[A-Z0-9]\{14\}//'
+  638  clear
+  639  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^"*[A-Z0-9]\{14\}//' | sort
+  640  clear
+  641  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^"*[A-Z0-9]\{14\}//' | sort | uniq
+  642  clear
+  643  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^"*[A-Z0-9]\{14\}//' | sort | uniq -c
+  644  clear
+  645  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^"*[A-Z0-9]\{14\}//' | sort | uniq -c | sort
+  646  clear
+  647  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^"*[A-Z0-9]\{14\}//' | sort | uniq -c | sort -r
+  648  clear
+  649  tail -n +2 EPLABB.csv | cut -d / -f 1 | sed 's/^"*[A-Z0-9]\{14\}//' | sort | uniq -c | sort -r | head -n 10
+  650  clear
+  651  nano EPL10.sh
+  652  nano EPL10.sh
+  653  ls
+  654  bash EPL10.sh 
+  655  clear
+  656  nano EPL10.sh
+  657  bash EPL10.sh 
+  658  bash EPL10.sh EPLABB.csv 
+  659  bash EPL10.sh EPLWHP.csv 
+  660  clear
+  661  bash EPL10.sh EPL*
+  662  history
+  663  clear
+  664  history > myHistory.txt
